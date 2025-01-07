@@ -6,11 +6,6 @@ const domandeOrganismiViventi = [
         "correctAnswer": "Un insieme di cellule organizzate"
     },
     {
-        "question": "Quali sono i 4 punti principali della teoria cellulare?",
-        "options": ["Tutti gli organismi viventi sono costituiti da atomi", "Tutte le funzioni vitali avvengono all'interno delle cellule", "Ogni cellula è indipendente", "Tutte le cellule provengono da altre cellule"],
-        "correctAnswer": "Tutte le funzioni vitali avvengono all'interno delle cellule"
-    },
-    {
         "question": "Cosa sono gli organismi unicellulari?",
         "options": ["Organismi costituiti da una sola cellula", "Organismi composti da più cellule", "Organismi che non possono muoversi", "Organismi che vivono solo in acqua"],
         "correctAnswer": "Organismi costituiti da una sola cellula"
@@ -398,7 +393,40 @@ const domandeOrganismiViventi = [
       "question": "Cosa significa che uno zucchero è monosaccaride, disaccaride o polisaccaride?",
       "options": ["Dipende dal numero di unità zuccherine che compongono la molecola", "Si riferisce alla struttura proteica dello zucchero", "Indica se lo zucchero è solubile o insolubile in acqua", "Si riferisce alla velocità di metabolizzazione dello zucchero"],
       "correctAnswer": "Dipende dal numero di unità zuccherine che compongono la molecola"
+  },
+  {
+    "question": "Quali delle seguenti affermazioni descrivono correttamente le proprietà condivise dagli organismi viventi?", 
+    "options": [
+      "Gli organismi viventi presentano organizzazione cellulare, metabolismo, crescita e sviluppo, capacità di riproduzione, risposta a stimoli, homeostasi, adattamento evolutivo, ereditarietà, ordine complesso e movimento, a meno che non siano piante o batteri", 
+      "Gli esseri viventi possiedono un metabolismo, capacità di crescita e sviluppo, riproduzione sessuata, risposta agli stimoli, mantenimento dell'omeostasi, adattamenti evolutivi e movimento, ma non necessariamente ereditarietà", 
+      "Le proprietà comuni a tutti gli organismi viventi includono la capacità di rispondere agli stimoli, l'adattamento evolutivo, la riproduzione asessuata, l'organizzazione cellulare e la divisione cellulare, ma non richiedono un sistema complesso di ordine e movimento", 
+      "Gli organismi viventi sono caratterizzati da un metabolismo, un'organizzazione cellulare complessa, la capacità di rispondere agli stimoli ambientali, il mantenimento dell'omeostasi, la crescita e sviluppo attraverso divisioni cellulari regolari, l'adattamento a livello evolutivo, ereditarietà e movimento"
+    ], 
+    "correctAnswer": "Gli organismi viventi sono caratterizzati da un metabolismo, un'organizzazione cellulare complessa, la capacità di rispondere agli stimoli ambientali, il mantenimento dell'omeostasi, la crescita e sviluppo attraverso divisioni cellulari regolari, l'adattamento a livello evolutivo, ereditarietà e movimento"
+  },
+  {
+    "question": "Quali delle seguenti affermazioni descrivono correttamente le proprietà di differenziazione, specializzazione e plasticità delle cellule?", 
+    "options": [
+      "La differenziazione è il processo che permette alle cellule di acquisire caratteristiche uniche per compiti specifici, mentre la plasticità riguarda la capacità di adattarsi a segnali esterni, e la specializzazione avviene solo nelle cellule staminali", 
+      "La differenziazione permette alle cellule di diventare tipi cellulari con funzioni definite, la specializzazione è un ulteriore sviluppo della differenziazione con caratteristiche uniche, e la plasticità consente alle cellule di adattarsi e modificarsi in risposta a segnali esterni", 
+      "La differenziazione è il processo di adattamento delle cellule a segnali esterni, la specializzazione è la loro trasformazione in tipi cellulari specifici, e la plasticità è la capacità delle cellule di mantenere la loro funzione originale", 
+      "La differenziazione riguarda solo la formazione di cellule staminali, la specializzazione si verifica quando una cellula cambia il suo stato, e la plasticità è un processo che avviene solo durante la divisione cellulare"
+    ], 
+    "correctAnswer": "La differenziazione permette alle cellule di diventare tipi cellulari con funzioni definite, la specializzazione è un ulteriore sviluppo della differenziazione con caratteristiche uniche, e la plasticità consente alle cellule di adattarsi e modificarsi in risposta a segnali esterni"
+  },
+  {
+    "question": "Quali delle seguenti affermazioni descrivono correttamente i principi della teoria cellulare?", 
+    "options": [
+      "La teoria cellulare afferma che tutte le cellule sono identiche in struttura e funzione e che la cellula è l'unità di base della vita. Inoltre, tutte le cellule sono originarie da una cellula madre tramite mitosi", 
+      "La teoria cellulare stabilisce che tutti gli organismi viventi sono composti da una o più cellule, che la cellula è l'unità fondamentale della vita e che tutte le funzioni vitali degli organismi avvengono all'interno della cellula", 
+      "Secondo la teoria cellulare, le cellule sono l'unità strutturale ma non funzionale degli organismi. La funzione vitale è distribuita tra gli organi e non avviene all'interno delle cellule", 
+      "La teoria cellulare sostiene che ogni cellula ha una funzione specifica, ma non tutte le cellule possiedono il materiale genetico, che è presente solo nelle cellule riproduttive"
+    ], 
+    "correctAnswer": "La teoria cellulare stabilisce che tutti gli organismi viventi sono composti da una o più cellule, che la cellula è l'unità fondamentale della vita e che tutte le funzioni vitali degli organismi avvengono all'interno della cellula"
   }
+  
+  
+  
   
   
 

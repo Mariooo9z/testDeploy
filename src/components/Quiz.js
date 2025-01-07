@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import domandeAcidiNucleici from './domandeAcidiNucleici';  
 import domandeFlussoDiInformazioni from './domandeFlussoDiInformazioni'; 
@@ -6,6 +5,11 @@ import domandeMacromolecole from './domandeMacromolecole';
 import domandetrasportoMembrane from './domandeTrasportoMembrane'; 
 import domandeMembrane from './domandeMembrane'; 
 import domandeOrganismiViventi from './domandeOrganismiViventi'; 
+import domandeCicloCellulare from './domandeCicloCellulare'; 
+import domandeLisosomi from './domendeLisosomi';
+import domandeViaSecretoria from './domandeViaSecretoria'; 
+import domandeCitoscheletro from './domandeCitoscheletro'; 
+import domandeMiosiMitosi from './domandeMiosiMitosi'; 
 import Question from './Question';
 
 const Quiz = ({ selectedQuestions, resetQuiz }) => {
@@ -30,6 +34,11 @@ const Quiz = ({ selectedQuestions, resetQuiz }) => {
     const selectedtrasportoMembrane = shuffleArray(domandetrasportoMembrane).slice(0, selectedQuestions.trasportoMembrane);
     const selectedMembrane = shuffleArray(domandeMembrane).slice(0, selectedQuestions.membrane);
     const selectedOrganismiViventi = shuffleArray(domandeOrganismiViventi).slice(0, selectedQuestions.organismiViventi);
+    const selectedCicloCellulare = shuffleArray(domandeCicloCellulare).slice(0, selectedQuestions.cicloCellulare);
+    const selectedLisosomi = shuffleArray(domandeLisosomi).slice(0, selectedQuestions.lisosomi);
+    const selectedViaSecretoria = shuffleArray(domandeViaSecretoria).slice(0, selectedQuestions.viaSecretoria);
+    const selectedCitoscheletro = shuffleArray(domandeCitoscheletro).slice(0, selectedQuestions.citoscheletro);
+    const selectedMiosiMitosi = shuffleArray(domandeMiosiMitosi).slice(0, selectedQuestions.miosiMitosi);
 
     // Combina tutte le domande
     const allQuestions = [
@@ -39,6 +48,11 @@ const Quiz = ({ selectedQuestions, resetQuiz }) => {
       ...selectedtrasportoMembrane,
       ...selectedMembrane,
       ...selectedOrganismiViventi,
+      ...selectedCicloCellulare,
+      ...selectedLisosomi,
+      ...selectedViaSecretoria,
+      ...selectedCitoscheletro,
+      ...selectedMiosiMitosi,
     ];
 
     // Mescola tutte le domande combinate

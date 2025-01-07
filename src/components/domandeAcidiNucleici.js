@@ -41,7 +41,7 @@ const domandeAcidiNucleici = [
           "correctAnswer": "Desossiribosio"
         },
         {
-          "question": "Quali sono le basi azotate?",
+          "question": "cosa sono le basi azotate?",
           "options": ["Aminoacidi e zuccheri", "Basi chimiche che si legano ai pentosi", "Molecole che compongono gli acidi grassi", "Polipeptidi"],
           "correctAnswer": "Basi chimiche che si legano ai pentosi"
         },
